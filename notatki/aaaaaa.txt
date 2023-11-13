@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Divine Wines</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+      }
+
+      .header {
+        background-color: black;
+        text-align: center;
+        padding: 50px;
+      }
+
+      .section {
+        text-align: center;
+        padding: 50px;
+      }
+
+      .footer {
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .slider {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .slide {
+        min-width: 100%;
+      }
+      img {
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="IMG/logo.png" alt="The Divine Logo" />
+      <h1>Welcome to The Divine Wines</h1>
+      <p>Your destination for exquisite wines and accessories</p>
+    </div>
+
+    <div class="section">
+      <h2>About Us</h2>
+      <p>
+        Discover the story behind The Divine Wines, where passion meets
+        craftsmanship.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Our Wine Accessories</h2>
+      <div class="slider">
+        <div class="slide">
+          <img src="IMG/wine1.jpg" alt="Wine 1" />
+          <p>Wine Name: Wine 1</p>
+          <p>Price: $X.XX</p>
+          <p>Product Number: 001</p>
+        </div>
+        <div class="slide">
+          <img src="IMG/wine2.jpg" alt="Wine 2" />
+          <p>Wine Name: Wine 2</p>
+          <p>Price: $X.XX</p>
+          <p>Product Number: 002</p>
+        </div>
+        <!-- Add more slides for other products as needed -->
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>For inquiries, please contact us at:</p>
+      <p>Phone: +1-XXX-XXX-XXXX</p>
+      <p>
+        Email:
+        <a href="mailto:info@thedivinewines.com">info@thedivinewines.com</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2023 The Divine Wines. All rights reserved.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.slides').slick({
+          autoplay: true, // Automatyczne przewijanie slajdów
+          autoplaySpeed: 2000, // Szybkość przewijania w milisekundach (tu: 2 sekundy)
+          slidesToShow: 2, // Ilość slajdów do pokazania naraz
+          slidesToScroll: 1, // Ilość slajdów do przewinięcia za każdym razem
+          dots: true, // Pokazuje kropki nawigacyjne
+          infinite: true, // Nieskończony loop slidera
+        })
+      })
+    </script>
+  </body>
+</html>

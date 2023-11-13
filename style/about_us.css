@@ -1,0 +1,13 @@
+.info {
+  background-image: url('../IMG/About_us.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info p,
+.info h2 {
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+/* Oprócz tego style są w category_main */

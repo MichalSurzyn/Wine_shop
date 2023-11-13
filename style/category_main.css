@@ -1,0 +1,56 @@
+main {
+  margin-top: 100px;
+}
+.lewy-div,
+.prawy-div {
+  width: 50%;
+  float: left; /* Aby umieścić divy obok siebie */
+  box-sizing: border-box; /* Włączenie box-sizing: border-box dla lepszej obsługi paddingu i bordera */
+  padding: 10%; /* Dodanie wewnętrznego marginesu dla divów */
+  height: 90vh;
+}
+.lewy-div {
+  background-color: #450303;
+  /* background-color: #0e0e0e; */
+}
+.prawy-div {
+  padding: 0% !important;
+  background-image: url('../IMG/home.jpg'); /* Ścieżka do twojego obrazu */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.category {
+  width: 90%;
+  min-width: 1225px;
+  margin: 0px auto;
+  text-align: center;
+  box-sizing: border-box;
+  height: 90vh;
+  margin-bottom: 15vh;
+}
+.category img {
+  width: 50%;
+  height: auto;
+}
+#home h1 {
+  font-size: 72px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+.category p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.p_1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.p_2 {
+  font-size: 16px;
+}

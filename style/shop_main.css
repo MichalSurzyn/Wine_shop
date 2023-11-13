@@ -1,0 +1,135 @@
+main {
+  background-color: #ffffff;
+  margin: 0;
+  margin-top: 100px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.welcome {
+  width: 90%;
+  min-width: 1225px;
+  margin: 0px auto;
+  text-align: center;
+  box-sizing: border-box;
+  height: 20vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+.lewy,
+.prawy {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  color: black;
+  height: 100%;
+}
+.lewy {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40pt;
+}
+.prawy {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.prawy p {
+  width: 40%;
+  margin: auto;
+}
+.shop_cat {
+  margin-bottom: 10vh;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40vh;
+  background-color: black;
+  text-align: center;
+}
+.shop_cat h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35pt;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* Stylowanie siatki produktów,bez js */
+/* .products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+} */
+
+/* Stylowanie produktu  też stare*/
+/* .product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+} */
+
+/* Stylowanie obrazka produktu */
+.product-image {
+  width: 100%; /* Ustaw stałą szerokość */
+  height: 350px; /* Ustaw stałą wysokość */
+  overflow: hidden; /* Ukryj nadmiarową zawartość obrazka */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.product-image img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  /* object-fit: contain; */
+}
+
+/* Stylowanie informacji o produkcie */
+.product-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* #product-container,
+#Halloween,
+#Christmas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+} */
+.product {
+  flex: 0 0 calc(20% - 20px); /* Ustaw szerokość produktu na 25% szerokości kontenera, minus margines */
+  padding: 20px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  margin: 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+  float: left;
+  background-color: black;
+}
+
+/* Style dla przycisków nawigacyjnych Slick Slider */
+/* Style dla przycisków nawigacyjnych Slick Slider */
+.slick-prev,
+.slick-next {
+  z-index: 100;
+}
+
+/* Styl dla strzałki w lewo (.slick-prev) */
+.slick-prev {
+  left: -10px !important;
+}
+
+/* Styl dla strzałki w prawo (.slick-next) */
+.slick-next {
+  right: -10px !important;
+}
+
+.product hr {
+  width: 15%;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
