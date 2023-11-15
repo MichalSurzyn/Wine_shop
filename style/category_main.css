@@ -12,11 +12,12 @@ main {
 .lewy-div {
   background-color: #450303;
   /* background-color: #0e0e0e; */
+  height: 100%;
 }
 .prawy-div {
   padding: 0% !important;
   background-image: url('../IMG/home.jpg'); /* Ścieżka do twojego obrazu */
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -27,7 +28,7 @@ main {
 }
 .category {
   width: 90%;
-  min-width: 1225px;
+  /* min-width: 1225px; */
   margin: 0px auto;
   text-align: center;
   box-sizing: border-box;

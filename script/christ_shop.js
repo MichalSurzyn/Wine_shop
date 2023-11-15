@@ -6,7 +6,7 @@ const ch_data = [
     name: 'Nazwa Produktu 1',
     price: '85zł',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      '🌟 Prezent Świąteczny, który Rozświetli Twój Nastrój! 🎁\nSzara torba z flicu z motywami świątecznymi – to nasza propozycja na oryginalny prezent, który sprawi radość każdemu, kto ceni wyjątkowe gadżety i dobre wino. Niech te Święta będą pełne stylu i smaku!',
   },
   {
     imageSrc: 'stare/hjj.jpg',
@@ -14,7 +14,7 @@ const ch_data = [
     name: 'Nazwa Produktu 2',
     price: '85zł',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      '🍷 Wino z Klasy, Torba z Elegancją!\nNasza torba to nie tylko praktyczny gadżet, ale też wyraz Twojego wyjątkowego stylu. Szarość, motywy świąteczne – to połączenie, które sprawi, że każda butelka wina stanie się jeszcze bardziej wyjątkowa. Idealna na firmową wigilię, przyjęcie czy jako prezent dla bliskiej osoby.',
   },
   {
     imageSrc: 'stare/w1.jpg',
@@ -22,7 +22,7 @@ const ch_data = [
     name: 'Nazwa Produktu 3',
     price: '85zł',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      '🎅 Świąteczne Motywy, Klasyczny Szary – Uniwersalne Elegancja!\nDla tych, którzy szukają czegoś więcej niż zwykłej torby. Dodajemy nutkę świątecznej magii – bombka, czapka Mikołaja, czy może urocza chińska czapka? Wybór należy do Ciebie! Niech Twój prezent wybije się spośród innych.',
   },
   {
     imageSrc: 'stare/w2.jpg',
@@ -30,7 +30,7 @@ const ch_data = [
     name: 'Nazwa Produktu 3',
     price: '85zł',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      '🎀 Dla Osób w Każdym Wieku– Bo Styl Nie Zna Granic!\nNasza torba to połączenie nowoczesnego designu z elegancją. Niech każda lampka na choince lśni nie tylko dla najmłodszych, ale też dla tych, którzy doceniają smak dojrzałego wina i wyjątkowe prezenty.',
   },
   {
     imageSrc: 'stare/w3.jpg',
@@ -38,7 +38,7 @@ const ch_data = [
     name: 'Nazwa Produktu 4',
     price: '85zł',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      '🌲 Podaruj Sobie i Innym Chwilę Elegancji!\nBo każdy zasługuje na chwilę elegancji i wyjątkowości. Niech to Święta będą pełne stylu, smaku i radości. Daj sobie i swoim bliskim prezent, który nie tylko będzie praktyczny, ale również wyjątkowy – tak jak Ty!',
   },
   {
     imageSrc: 'stare/w4.jpg',
@@ -46,31 +46,7 @@ const ch_data = [
     name: 'Nazwa Produktu 4',
     price: '85zł',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    imageSrc: 'stare/w5.jpg',
-    alt: 'Produkt 1',
-    name: 'Nazwa Produktu 5',
-    price: '85zł',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    imageSrc: 'stare/w6.jpg',
-    alt: 'Produkt 1',
-    name: 'Nazwa Produktu 6',
-    price: '85zł',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  {
-    imageSrc: 'stare/w7.jpg',
-    alt: 'Produkt 1',
-    name: 'Nazwa Produktu 7',
-    price: '85zł',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      '🍇 Wino z klasą, torba z charakterem. Sprawdź, jak elegancja może być prosta i przyjemna! 🌟',
   },
 ]
 // Function to create product elements
@@ -126,28 +102,28 @@ function createProductElements(products, index) {
       // autoplaySpeed: 5000,
       responsive: [
         {
-          breakpoint: 1500, // Zmniejsz liczby dla szerokości ekranu 1024px
+          breakpoint: 1600,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 1150, // Zmniejsz liczby dla szerokości ekranu 1024px
+          breakpoint: 1150,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 768, // Zmniejsz liczby dla szerokości ekranu 768px
+          breakpoint: 890,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 480, // Zmniejsz liczby dla szerokości ekranu 480px
+          breakpoint: 550,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,

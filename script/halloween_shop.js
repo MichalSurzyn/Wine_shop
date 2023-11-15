@@ -126,28 +126,28 @@ function createProductElements(products, index) {
       // autoplaySpeed: 5000,
       responsive: [
         {
-          breakpoint: 1500, // Zmniejsz liczby dla szerokości ekranu 1024px
+          breakpoint: 1600,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 1150, // Zmniejsz liczby dla szerokości ekranu 1024px
+          breakpoint: 1150,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 768, // Zmniejsz liczby dla szerokości ekranu 768px
+          breakpoint: 890,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 480, // Zmniejsz liczby dla szerokości ekranu 480px
+          breakpoint: 550,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
