@@ -121,8 +121,7 @@ function createProductElements(products) {
     $('#product-slider').slick({
       slidesToShow: 5,
       slidesToScroll: 1,
-      autoplay: true,
-      // autoplaySpeed: 5000,
+      autoplay: false,
       responsive: [
         {
           breakpoint: 1500, // Zmniejsz liczby dla szerokości ekranu 1024px

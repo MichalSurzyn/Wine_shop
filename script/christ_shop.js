@@ -122,7 +122,7 @@ function createProductElements(products, index) {
     $('#product-slider3').slick({
       slidesToShow: 5,
       slidesToScroll: 1,
-      autoplay: true,
+      autoplay: false,
       // autoplaySpeed: 5000,
       responsive: [
         {
