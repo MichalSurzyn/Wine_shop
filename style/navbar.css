@@ -9,6 +9,7 @@
   right: 0;
   background-color: #000000;
   height: 110px;
+  z-index: 110;
 }
 .logo img {
   width: 100px;

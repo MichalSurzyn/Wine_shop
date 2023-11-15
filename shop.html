@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Divine - Wine Enthusiast Store</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="ścieżka/do/slick.min.js"></script>
+    <script src="slick/slick.min.js"></script>
 
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/navbar.css" />
     <link rel="stylesheet" href="style/category_main.css" />
     <link rel="stylesheet" href="style/footer.css" />
     <link rel="stylesheet" href="style/shop_main.css" />
+    <link rel="stylesheet" href="style/shop_hid_div.css" />
     <!-- Dodaj w sekcji head -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
@@ -26,9 +27,25 @@
       </div>
       <div class="nav-links">
         <a href="index.html">Home</a>
-        <a href="#info">About us</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html#info">About us</a>
+        <a href="index.html#contact">Contact</a>
         <a href="shop.html">Shop</a>
+      </div>
+    </div>
+
+    <div id="product-details-overlay">
+      <div id="product-details">
+        <span id="close-btn">&times;</span>
+        <div class="img-left">
+          <img id="large-image" alt="">
+        </div>
+        <div class="desc">
+          <h3 id="product-name"></h3>
+          <p id="product-price"></p>
+          <hr>
+          <h2>Description</h2>
+          <p id="product-description"></p>
+        </div>
       </div>
     </div>
 
@@ -42,25 +59,27 @@
           </h2>
         </div>
       </section>
-      <section class="shop_cat" id="theDivineCategory">
-        <h2>The Divine</h2>
-        <div id="product-slider">
-          <!-- Tutaj będą umieszczane produkty dynamicznie -->
-        </div>
-      </section>
-      <section class="shop_cat" id="halloweenCategory">
-        <h2>Halloween</h2>
-        <div id="product-slider2">
-          <!-- Tutaj będą umieszczane produkty dynamicznie -->
-        </div>
-      </section>
-      <section class="shop_cat" id="christmasCategory">
-        <h2>Christmas</h2>
-        <div id="product-slider3">
-          <!-- Tutaj będą umieszczane produkty dynamicznie -->
-        </div>
-      </section>
-      </section>
+      <div id="category">
+        <section class="shop_cat" id="theDivineCategory">
+          <h2>The Divine</h2>
+          <div id="product-slider">
+            <!-- Tutaj będą umieszczane produkty dynamicznie -->
+          </div>
+        </section>
+        <section class="shop_cat" id="halloweenCategory">
+          <h2>Halloween</h2>
+          <div id="product-slider2">
+            <!-- Tutaj będą umieszczane produkty dynamicznie -->
+          </div>
+        </section>
+        <section class="shop_cat" id="christmasCategory">
+          <h2>Christmas</h2>
+          <div id="product-slider3">
+            <!-- Tutaj będą umieszczane produkty dynamicznie -->
+          </div>
+        </section>
+        </section>
+      </div>
     </main>
     <footer>
       <p><a href="mailto:info@thedivine.com.pl">info@thedivine.com.pl</a></p>

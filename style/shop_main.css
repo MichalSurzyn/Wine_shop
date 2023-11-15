@@ -1,17 +1,21 @@
 main {
-  background-color: #ffffff;
   margin: 0;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  background-color: white;
 }
-
+#category {
+  background-color: #450303;
+  height: 100%;
+  padding-bottom: 5vh;
+}
 .welcome {
   width: 100%;
   min-width: 1225px;
   margin: 0px auto;
   text-align: center;
   box-sizing: border-box;
-  height: 20vh;
+  height: 25vh;
+  background-color: white;
   /* margin-bottom: 5vh;
   margin-top: 5vh; */
 }
