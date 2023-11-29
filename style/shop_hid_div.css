@@ -56,7 +56,6 @@
   display: flex;
   text-align: center;
   align-items: center;
-  min-width: 800px;
   height: 80vh;
   position: fixed;
   top: 10vh;
@@ -69,4 +68,38 @@
   right: 10px;
   cursor: pointer;
   font-size: 30pt;
+}
+@media (max-width: 1200px) {
+  #product-details {
+    width: 80vw;
+    left: 10vw;
+  }
+}
+@media (max-width: 800px) {
+  #product-details {
+    width: 100vw;
+    left: 0vw;
+  }
+  .desc h3 {
+    margin: 30px 0 30px 0;
+    font-size: 25pt;
+  }
+  #close-btn {
+    right: 50px;
+  }
+}
+@media (max-width: 700px) {
+  #product-price {
+    margin-bottom: 20px;
+  }
+  .desc h3 {
+    font-size: 20pt;
+  }
+  .desc h2 {
+    margin: 30px 0 30px 0;
+    font-size: 18pt;
+  }
+  .desc p {
+    font-size: 11pt;
+  }
 }
