@@ -31,7 +31,7 @@ const productsData = [
     imageSrc: 'products/m12.jpg',
     alt: 'Produkt 1',
     name: 'Multikorek The Divine',
-    price: '85zł',
+    price: '14,99 PLN ',
     d_title: '🎀 Wybierz Wyjątkowe do Wyjątkowego!',
     description:
       'Bo chwila z winem zasługuje na wyjątkowy akcent. Wybierz nasz Wysokiej Klasy Multikorek, by uczynić każdą butelkę wina jeszcze bardziej niezapomnianą.',
@@ -73,16 +73,15 @@ const productsData = [
   },
 ]
 
-const hall_data = []
-const the_divine_data = [
+const hall_data = [
   {
-    imageSrc: 'products/m12.jpg',
+    imageSrc: 'products/m18.jpg',
     alt: 'Produkt 1',
-    name: 'Multikorek The Divine',
-    price: '85zł',
-    d_title: '🎀 Wybierz Wyjątkowe do Wyjątkowego!',
+    name: 'Multikorek Halloween',
+    price: '14,99 PLN ',
+    d_title: '🌲 Drewno z Charakterem, Wino z Klasy!!',
     description:
-      'Bo chwila z winem zasługuje na wyjątkowy akcent. Wybierz nasz Wysokiej Klasy Multikorek, by uczynić każdą butelkę wina jeszcze bardziej niezapomnianą.',
+      'Nasze multikorki to nie tylko gadżety – to wyznaczniki elegancji i stylu. Dla tych, którzy cenią sobie nie tylko smak wina, ale także atmosferę każdego spotkania przy lampce ulubionego trunku.',
   },
   {
     imageSrc: 'products/m15.jpg',
@@ -93,14 +92,53 @@ const the_divine_data = [
       'Od świątecznych choinek po urodzinowe torty, od dedykowanych napisów po uniwersalne wzory – wybór motywu na multikorek to kwestia Twojej wyobraźni. Stwórz niepowtarzalny zestaw, który przemówi do gustu każdego miłośnika wina',
   },
   {
-    imageSrc: 'products/m18.jpg',
+    imageSrc: 'products/m20.jpg',
     alt: 'Produkt 1',
-    name: 'Multikorek Halloween',
+    name: 'Multikorek Dynia',
+    price: '14,99 PLN ',
+    d_title: '🎉 Prezent Solo czy w Zestawie – Zawsze Wyjątkowy!',
+    description:
+      'Multikorek to nie tylko sam w sobie wspaniały prezent, ale również idealny dodatek do zestawu z winem, torbą czy tubą. Niech Twoje wino zasługuje na towarzystwo, które podkreśli jego wyjątkowy smak.',
+  },
+]
+const the_divine_data = [
+  {
+    imageSrc: 'products/m7.jpg',
+    alt: 'Produkt 1',
+    name: 'Multikorek The Divine',
+    price: '14,99 PLN ',
+    description:
+      'Od świątecznych choinek po urodzinowe torty, od dedykowanych napisów po uniwersalne wzory – wybór motywu na multikorek to kwestia Twojej wyobraźni. Stwórz niepowtarzalny zestaw, który przemówi do gustu każdego miłośnika wina',
+  },
+  {
+    imageSrc: 'products/m12.jpg',
+    alt: 'Produkt 1',
+    name: 'Multikorek The Divine',
+    price: '14,99 PLN ',
+    d_title: '🎀 Wybierz Wyjątkowe do Wyjątkowego!',
+    description:
+      'Bo chwila z winem zasługuje na wyjątkowy akcent. Wybierz nasz Wysokiej Klasy Multikorek, by uczynić każdą butelkę wina jeszcze bardziej niezapomnianą.',
+  },
+  {
+    imageSrc: 'products/m8.jpg',
+    alt: 'Produkt 1',
+    name: 'Multikorek The Divine',
     price: '14,99 PLN ',
     d_title: '🌲 Drewno z Charakterem, Wino z Klasy!!',
     description:
       'Nasze multikorki to nie tylko gadżety – to wyznaczniki elegancji i stylu. Dla tych, którzy cenią sobie nie tylko smak wina, ale także atmosferę każdego spotkania przy lampce ulubionego trunku.',
   },
+  {
+    imageSrc: 'products/d1.jpg',
+    alt: 'Produkt 1',
+    name: 'Multikorek The Divine',
+    price: '14,99 PLN ',
+    d_title: '🎀 Wybierz Wyjątkowe do Wyjątkowego!',
+    description:
+      'Bo chwila z winem zasługuje na wyjątkowy akcent. Wybierz nasz Wysokiej Klasy Multikorek, by uczynić każdą butelkę wina jeszcze bardziej niezapomnianą.',
+  },
 ]
 // Call the function with the product data
 createProductElements(productsData, 'product-slider')
+createProductElements(hall_data, 'product-slider5')
+createProductElements(the_divine_data, 'product-slider4')
