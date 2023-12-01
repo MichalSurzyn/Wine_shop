@@ -3,7 +3,7 @@ const ch_data = [
   {
     imageSrc: 'products/t1.jpg',
     alt: 'Produkt 1',
-    name: 'Torba',
+    name: 'Torba Mikołaj',
     price: '24,99 PLN ',
     d_title: '🌟 Prezent Świąteczny, który Rozświetli Twój Nastrój! 🎁',
     description:
@@ -21,7 +21,7 @@ const ch_data = [
   {
     imageSrc: 'products/t2.jpg',
     alt: 'Produkt 2',
-    name: 'Torba',
+    name: 'Torba Choinka',
     price: '24,99 PLN ',
     d_title: '🍷 Wino z Klasy, Torba z Elegancją',
     description:
@@ -39,7 +39,7 @@ const ch_data = [
   {
     imageSrc: 'products/t3.jpg',
     alt: 'Produkt 3',
-    name: 'Torba',
+    name: 'Torba Bombka',
     price: '24,99 PLN ',
     d_title: '🎅 Świąteczne Motywy, Klasyczny Szary – Uniwersalne Elegancja!',
     description:
@@ -48,7 +48,7 @@ const ch_data = [
   {
     imageSrc: 'products/t4.jpg',
     alt: 'Produkt 4',
-    name: 'Torba',
+    name: 'Zestaw Toreb',
     price: '24,99 PLN ',
     d_title: '🎀 Dla Osób w Każdym Wieku– Bo Styl Nie Zna Granic!',
     description:
@@ -66,7 +66,7 @@ const ch_data = [
   {
     imageSrc: 'products/t5.jpg',
     alt: 'Produkt 5',
-    name: 'Torba',
+    name: 'Zestaw Toreb',
     price: '24,99 PLN ',
     d_title: '🌲 Podaruj Sobie i Innym Chwilę Elegancji!',
     description:
