@@ -1,11 +1,12 @@
 main {
   margin: 0;
   padding-top: 10vh;
-  background-color: white;
+  background-color: wheat;
   width: 100%;
 }
 #category {
-  background-color: #450303;
+  /* background-color: #450303; */
+  background-color: wheat;
   height: 100%;
   padding-bottom: 5vh;
   width: 100%;
@@ -16,7 +17,7 @@ main {
   text-align: center;
   box-sizing: border-box;
   height: 25vh;
-  background-color: white;
+  background-color: wheat;
   /* margin-bottom: 5vh;
   margin-top: 5vh; */
 }
@@ -63,6 +64,9 @@ main {
   font-family: 'Oswald', sans-serif;
   font-size: 35pt;
   margin-top: 20px;
+  margin-bottom: 30px;
+}
+.shop_cat p {
   margin-bottom: 30px;
 }
 /* Stylowanie obrazka produktu */
