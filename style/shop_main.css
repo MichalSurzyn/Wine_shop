@@ -34,7 +34,7 @@ main {
   text-align: left;
 }
 .lewy h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif !important;
   font-size: 50pt;
   margin: 0 auto;
 }

@@ -10,6 +10,7 @@
   background-color: #000000;
   height: 110px;
   z-index: 110;
+  text-transform: capitalize;
 }
 .logo img {
   width: 100px;
