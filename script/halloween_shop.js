@@ -31,7 +31,7 @@ const hal_data = [
     imageSrc: 'products/t4.jpg',
     alt: 'Produkt 4',
     name: 'Zestaw Toreb',
-    price: '24,99 PLN ',
+    price: '69,99 PLN ',
     d_title: '🎀 Dla Osób w Każdym Wieku– Bo Styl Nie Zna Granic!',
     description:
       'Nasza torba to połączenie nowoczesnego designu z elegancją. Niech każda lampka na choince lśni nie tylko dla najmłodszych, ale też dla tych, którzy doceniają smak dojrzałego wina i wyjątkowe prezenty.',
@@ -40,7 +40,7 @@ const hal_data = [
     imageSrc: 'products/t5.jpg',
     alt: 'Produkt 5',
     name: 'Zestaw Toreb',
-    price: '24,99 PLN ',
+    price: '69,99 PLN ',
     d_title: '🌲 Podaruj Sobie i Innym Chwilę Elegancji!',
     description:
       'Bo każdy zasługuje na chwilę elegancji i wyjątkowości. Niech to Święta będą pełne stylu, smaku i radości. Daj sobie i swoim bliskim prezent, który nie tylko będzie praktyczny, ale również wyjątkowy – tak jak Ty!',
